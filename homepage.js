@@ -16,7 +16,7 @@ homepage(() => {
         src: "https://tinyclouds.org/ry.jpg",
         style: "max-width: 120px",
       }),
-      h("h2", {}, "Ryan Dahl"),
+      h("h2", {}, "Ryan Dahl hallo"),
       h("a", { href: "ryan@deno.com" }, "ryan@deno.com")
     ),
     h(
