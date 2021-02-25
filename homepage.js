@@ -5,10 +5,6 @@ const PROJECTS = {
   Deno: "https://github.com/denoland/deno",
 };
 
-
-
-
-
 homepage(() => {
   return h(
     Fragment,
@@ -20,7 +16,7 @@ homepage(() => {
         src: "https://tinyclouds.org/ry.jpg",
         style: "max-width: 120px",
       }),
-      h("h2", {}, "test 212"),
+      h("h2", {}, "Hello world"),
       h("a", { href: "ryan@deno.com" }, "ryan@deno.com")
     ),
     h(
